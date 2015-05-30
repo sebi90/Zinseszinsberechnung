@@ -13,7 +13,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/kapital"
-        android:inputType="number" />
+        android:inputType="number" >
+        <requestFocus/>
+    </EditText>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
